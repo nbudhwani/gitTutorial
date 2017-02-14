@@ -3,6 +3,11 @@
  */
 public class Student extends Person {
     String major;
+    List<Course> courseList;
+
+    public void addCourse(Course c){
+        courseList.add(c);
+    }
 
     public Student(String name, String emailAddress, String major) {
         super(name, emailAddress);
