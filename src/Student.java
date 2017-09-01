@@ -15,7 +15,7 @@ public class Student extends Person {
         this.major = major;
         this.fulltime = fulltime;
     }
-
+/** change1 */
     public String toString() {
         return String.format("Name: %s\nMajor: %s\nEmail: %s", this.name, this.major, this.emailAddress);
     }
